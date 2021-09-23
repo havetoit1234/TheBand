@@ -1,0 +1,92 @@
+/* PC */
+@media (min-width : 1024px){
+
+}
+/* Table */
+@media (min-width : 740px) && (max-width : 1023px){
+
+}
+/* Mobie */
+@media (max-width : 740px){
+    .header{
+        overflow: hidden;
+        width: 100%;
+    }
+    #nav{
+        display:block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav > li:first-child{
+        display:inline-block;
+    }
+    #nav .supnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .supnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav .icon-search{
+        display: none;
+    }
+    #nav .mobie-menu{
+        display: block;
+    }
+    .slider .slide-text {
+        display: none;
+    }
+    .content-settion .menber-item{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .content-settion .menber-item img {
+        width: 50%;
+    }
+    .content-settion .about-text{
+        margin: 15px 15px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .place-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        padding: 0 16px;
+    }
+    .place-section .place-item{
+        width: 100%;
+        margin: 8px 0;
+    }
+    .tickets-list{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .col ,
+    .col-half{
+        width: 100%;
+       
+    }
+   .contact-info{
+      padding: 0 20px;
+   }
+   .contact-form{
+       padding: 0 20px;
+       margin-top: 16px;
+   }
+   .map-section img{
+    filter: grayscale(50%);
+   }
+   .footer-info{
+       padding-bottom: 16px;
+        
+   }
+    
+}
