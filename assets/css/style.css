@@ -161,6 +161,7 @@
     /* transform: translateX(-50%); */
     text-align: center;
     width: 100%; /* cach can giua thu 2 */
+    text-shadow: 0 0 1px black;
 }
 .slider .slide-text .text-content{
     padding: 15px 0;
